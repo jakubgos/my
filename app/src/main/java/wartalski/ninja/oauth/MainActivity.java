@@ -263,8 +263,8 @@ public class MainActivity extends AppCompatActivity {
             Date date = new Date();
 
             CoordinatesVO coordinatesVO = new CoordinatesVO();
-            coordinatesVO.setLng(latValue);
-            coordinatesVO.setLat(lngValue);
+            coordinatesVO.setLng(lngValue);
+            coordinatesVO.setLat(latValue);
             coordinatesVO.setCreationDate(date);
             //Toast.makeText(MainActivity.this, "send!", Toast.LENGTH_LONG).show();
 
