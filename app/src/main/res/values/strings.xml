@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">TrackYourself</string>
     <string name="action_settings">Settings</string>
-    <string name="path">http://trackerbackend-wartalski.rhcloud.com</string>
+    <string name="path">http://192.168.2.191:8080</string>
     <string name="client_id">clientapp</string>
     <string name="client_secret">123456</string>
 </resources>
