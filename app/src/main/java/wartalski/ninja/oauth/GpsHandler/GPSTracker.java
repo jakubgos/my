@@ -81,7 +81,7 @@ public class GPSTracker extends Service implements LocationListener {
             public void onLocationChanged(Location location) {
                 // Called when a new location is found by the network location provider.
                 //updateLocation(location);
-                Toast.makeText(mContext, "onLocationChanged!", Toast.LENGTH_LONG).show();
+               // Toast.makeText(mContext, "onLocationChanged!", Toast.LENGTH_LONG).show();
                 Log.d("...", "onLocationChanged");
                 latitude = location.getLatitude();
                 longitude = location.getLongitude();
